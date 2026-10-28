@@ -1,12 +1,11 @@
 # Designing LinkedIn Job Search
 
-> A step-by-step system design walkthrough for LinkedIn's job search. We start with a simple design, then add one piece at a time as traffic grows: load balancing, indexing, caching, database copies, a CDN, microservices, an API gateway, Kafka, Elasticsearch, and a Backend for Frontend.
-
-<!-- REVIEW: No section explains why PostgreSQL was chosen over other databases. Add a short note if you want to cover it. -->
-
 ## 1. Objective
 
-This document is my research notes on designing the job search feature of LinkedIn. I started with loose requirements and a very simple design, then added one component at a time as traffic grew. For each change, I wrote down the problem I noticed, what I changed, and what trade-off came with it.
+I wanted to understand what goes on behind LinkedIn's job search and how the system could handle millions of searches.
+
+I started with a basic design and kept exploring as new problems came up. These notes capture the ideas I studied, the design decisions I made, and what I learned along the way.
+
 
 
 ## 2. Requirements
