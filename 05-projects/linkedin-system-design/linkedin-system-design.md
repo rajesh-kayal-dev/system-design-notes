@@ -7,6 +7,7 @@ I wanted to understand what goes on behind LinkedIn's job search and how the sys
 I started with a basic design and kept exploring as new problems came up. These notes capture the ideas I studied, the design decisions I made, and what I learned along the way.
 
 
+
 ## 2. Requirements
 
 ### Functional Requirements
